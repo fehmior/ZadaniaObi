@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2e1
+namespace xdd
 {
-    internal class Rower
+     class Rower
     {
-        private Producent producent;
         private string kolor;
+        private Producent producent;
         private Material material;
         public void jedz()
         {
@@ -21,7 +21,7 @@ namespace _2e1
         }
         public string getColor()
         {
-            return this.kolor;
+            
         }
         public void setMaterial(Material amaterial)
         {
@@ -38,11 +38,11 @@ namespace _2e1
         private string nip;
         public string getNazwa()
         {
-            return this.nazwa;
+            
         }
         public string getNip()
         {
-            return this.nip;
+           
         }
         public void setNazwa(string anazwa)
         {
@@ -60,11 +60,11 @@ namespace _2e1
         }
         public string getTyp()
         {
-            return this.typ;
+            
         }
         public double getCena()
         {
-            return this.cena;
+            
         }
         public void setId(int aid)
         {
