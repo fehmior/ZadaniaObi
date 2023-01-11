@@ -13,7 +13,7 @@ namespace _2e1
         private Material material;
         public void jedz()
         {
-            Console.WriteLine("Jedź");
+            Console.WriteLine("Jadymy na kur*y");
         }
         public void setColor(string akolor)
         {
@@ -75,10 +75,6 @@ namespace _2e1
     {
         static void Main(string[] args)
         {
-
-            Material m = new Material();
-            Producent p = new Producent();
-            Rower r = new Rower(p);
         }
     }
 }
